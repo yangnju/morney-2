@@ -29,8 +29,20 @@
       <p>Money.vue</p>
       <p>Money.vue</p>
       <p>Money.vue</p>
-      <Nav/>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
+      <p>Money.vue</p>
     </div>
+    <Nav/>
   </div>
 </template>
 
@@ -48,13 +60,14 @@ export default class Money extends Vue {
 </script>
 
 <style lang="scss" scoped>
-.nav-wrapper{
+.nav-wrapper {
   border: 1px solid blue;
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-.content{
+
+.content {
   border: 1px solid green;
   overflow: auto;
   flex-grow: 1;
