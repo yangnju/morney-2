@@ -1,18 +1,18 @@
 <template>
-  <layout>
-    <p>我是tag页，用来管理用户创建的tag，这里用的是插槽</p>
-  </layout>
+  <div class="nav-wrapper">
+    <div class="content">
+      <slot></slot>
+    </div>
+    <Nav/>
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import {Component} from 'vue-property-decorator';
-import Nav from '@/components/Nav.vue';
 
-@Component({
-  components: {Nav}
-})
-export default class Tags extends Vue {
+@Component
+export default class Layout extends Vue {
 
 }
 </script>

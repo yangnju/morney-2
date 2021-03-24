@@ -1,10 +1,7 @@
 <template>
-  <div class="nav-wrapper">
-    <div class="content">
-      <p>我是统计页面，用来展示统计统计信息</p>
-    </div>
-    <Nav/>
-  </div>
+  <Layout>
+    <p>我是统计页面，用来展示统计统计信息，这里用的是插槽</p>
+  </Layout>
 </template>
 
 <script lang="ts">
