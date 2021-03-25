@@ -1,20 +1,31 @@
 <template>
   <div class="nav">
-    <router-link to="/money">Money</router-link>
+    <router-link to="/money">
+      <Icon name="money"/>
+      记账
+    </router-link>
     |
-    <router-link to="/tags">Tags</router-link>
+    <router-link to="/tags">
+      <Icon name="tags"/>
+      标签
+    </router-link>
     |
-    <router-link to="/statistics">Statistics</router-link>
+    <router-link to="/statistics">
+      <Icon name="statistics"/>
+      统计
+    </router-link>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import {Component} from 'vue-property-decorator';
+import Icon from '@/components/Icon.vue';
 
-@Component
+@Component({
+  components: {Icon}
+})
 export default class Nav extends Vue {
-
 }
 </script>
 
